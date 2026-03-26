@@ -55,7 +55,7 @@ def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Starter CLI for the Senior AI Engineer assignment."
     )
-    parser.add_argument("--tenant", help="Tenant ID, for example adidas or sainsburys.")
+    parser.add_argument("--tenant", help="Tenant ID, for example aerora or harvestmart.")
     parser.add_argument("--question", help="User question to answer.")
     return parser.parse_args()
 

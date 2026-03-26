@@ -7,8 +7,8 @@ Each record uses this shape:
 
 ```json
 {
-  "tenant": "adidas",
-  "product_id": "adidas-rs-001",
+  "tenant": "aerora",
+  "product_id": "aerora-rs-001",
   "name": "TerraGrip WeatherRun",
   "category": "footwear",
   "description": "Stable running shoe with grippy outsole and weather-resistant upper for wet commutes and rainy-day training.",

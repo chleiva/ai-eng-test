@@ -25,7 +25,7 @@ catalog-assistant
 You can also run it non-interactively:
 
 ```bash
-catalog-assistant --tenant sainsburys --question "Show me vegan breakfast products under 10 pounds"
+catalog-assistant --tenant harvestmart --question "Show me vegan breakfast products under 10 pounds"
 ```
 
 ## Important Files

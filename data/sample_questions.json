@@ -1,79 +1,79 @@
 [
   {
     "id": "q1",
-    "tenant_id": "adidas",
+    "tenant_id": "aerora",
     "user_question": "I want running shoes under 100 pounds with good foot support for rainy weather.",
     "focus": ["tenant_isolation", "price_filter", "semantic_suitability"],
-    "reference_product_ids": ["adidas-rs-001"],
+    "reference_product_ids": ["aerora-rs-001"],
     "should_abstain": false
   },
   {
     "id": "q2",
-    "tenant_id": "nike",
+    "tenant_id": "velora",
     "user_question": "Show me stable running shoes for wet weather that stay under 100 pounds.",
     "focus": ["tenant_isolation", "price_filter", "semantic_suitability"],
-    "reference_product_ids": ["nike-rs-001"],
+    "reference_product_ids": ["velora-rs-001"],
     "should_abstain": false
   },
   {
     "id": "q3",
-    "tenant_id": "nike",
+    "tenant_id": "velora",
     "user_question": "What trail running shoes do you have for rainy conditions?",
     "focus": ["tenant_isolation", "semantic_retrieval"],
-    "reference_product_ids": ["nike-rs-003"],
+    "reference_product_ids": ["velora-rs-003"],
     "should_abstain": false
   },
   {
     "id": "q4",
-    "tenant_id": "adidas",
+    "tenant_id": "aerora",
     "user_question": "I need something mostly for casual wear and walking, not serious running.",
     "focus": ["semantic_retrieval"],
-    "reference_product_ids": ["adidas-rs-004"],
+    "reference_product_ids": ["aerora-rs-004"],
     "should_abstain": false
   },
   {
     "id": "q5",
-    "tenant_id": "sainsburys",
+    "tenant_id": "harvestmart",
     "user_question": "Can you give me a list of breakfast products under 10 pounds for someone who is vegan, gluten intolerant, and lactose intolerant?",
     "focus": ["tenant_isolation", "metadata_filtering", "multi_match"],
-    "reference_product_ids": ["sains-break-001", "sains-break-003"],
+    "reference_product_ids": ["harvest-break-001", "harvest-break-003"],
     "should_abstain": false
   },
   {
     "id": "q6",
-    "tenant_id": "sainsburys",
+    "tenant_id": "harvestmart",
     "user_question": "What is a cheap breakfast option I can grab quickly before work if I avoid dairy?",
     "focus": ["price_filter", "semantic_retrieval", "dietary_filter"],
-    "reference_product_ids": ["sains-break-003", "sains-break-001", "sains-break-004"],
+    "reference_product_ids": ["harvest-break-003", "harvest-break-001", "harvest-break-004"],
     "should_abstain": false
   },
   {
     "id": "q7",
-    "tenant_id": "boots",
+    "tenant_id": "wellnest",
     "user_question": "Show me vegan breakfast items under 5 pounds that are also gluten free.",
     "focus": ["metadata_filtering", "multi_match"],
-    "reference_product_ids": ["boots-food-002", "boots-food-005"],
+    "reference_product_ids": ["wellnest-food-002", "wellnest-food-005"],
     "should_abstain": false
   },
   {
     "id": "q8",
-    "tenant_id": "boots",
+    "tenant_id": "wellnest",
     "user_question": "Do you have a dairy-free breakfast drink I can take on the go?",
     "focus": ["semantic_retrieval", "dietary_filter"],
-    "reference_product_ids": ["boots-food-005"],
+    "reference_product_ids": ["wellnest-food-005"],
     "should_abstain": false
   },
   {
     "id": "q9",
-    "tenant_id": "sainsburys",
-    "user_question": "Show me Nike trail shoes under 130 pounds.",
+    "tenant_id": "harvestmart",
+    "user_question": "Show me Velora trail shoes under 130 pounds.",
     "focus": ["tenant_isolation", "hallucination_control"],
     "reference_product_ids": [],
     "should_abstain": true
   },
   {
     "id": "q10",
-    "tenant_id": "nike",
+    "tenant_id": "velora",
     "user_question": "I need waterproof hiking boots with ankle support.",
     "focus": ["no_match", "hallucination_control"],
     "reference_product_ids": [],
@@ -81,15 +81,15 @@
   },
   {
     "id": "q11",
-    "tenant_id": "sainsburys",
+    "tenant_id": "harvestmart",
     "user_question": "What breakfast products are gluten free but definitely not vegan?",
     "focus": ["metadata_filtering", "edge_case"],
-    "reference_product_ids": ["sains-break-005"],
+    "reference_product_ids": ["harvest-break-005"],
     "should_abstain": false
   },
   {
     "id": "q12",
-    "tenant_id": "adidas",
+    "tenant_id": "aerora",
     "user_question": "I want a lightweight fast road shoe, but I also need strong support and rain protection under 90 pounds.",
     "focus": ["conflicting_constraints", "tradeoff_handling"],
     "reference_product_ids": [],

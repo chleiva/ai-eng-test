@@ -86,4 +86,4 @@ We will look for:
 
 ## Example Queries
 - "I want running shoes under 100 pounds with good support for rainy weather."
-- "Show me Sainsburys breakfast products under 10 pounds for someone who is vegan, gluten intolerant, and lactose intolerant."
+- "Show me HarvestMart breakfast products under 10 pounds for someone who is vegan, gluten intolerant, and lactose intolerant."
