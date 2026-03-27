@@ -4,7 +4,7 @@
 Build a small AI assistant that answers catalog questions using local data and retrieval, using any AI coding assistant.
 
 ## Task
-Create a CLI app or simple API that accepts:
+Create a CLI app or simple local app that accepts:
 - `tenant_id`
 - `user_question`
 
