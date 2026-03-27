@@ -1,7 +1,7 @@
-# Senior AI Engineer - 1 Hour Assignment
+# Senior AI Engineer - Assignment
 
 ## Goal
-Build a small AI assistant that answers catalog questions using local data and retrieval.
+Build a small AI assistant that answers catalog questions using local data and retrieval, using any AI coding assistant.
 
 ## Task
 Create a CLI app or simple API that accepts:
@@ -40,14 +40,13 @@ The catalog includes:
 The use case is product discovery. Typical queries may combine semantic intent with hard constraints such as price or dietary/product requirements.
 
 ## What You Own
-You may use any AI tool you want, but you own the outcome.
+You may use any AI tool you want.
 
 We would like you to own:
 - design decisions
 - retrieval / RAG strategy
 - prompt design
 - model and tool choices
-- handling of edge cases and unsupported queries
 - implementation quality
 - tradeoffs and explanation
 
